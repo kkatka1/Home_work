@@ -4,10 +4,10 @@ def to_uppercase(s):
     """
     return s.upper()
 
-def capitalize_words(s):
+def capitalize_words(input_string):
     """
-    Преобразует первые буквы каждого слова в строке в заглавные
+    Преобразует первые буквы каждого слова в строке в заглавные буквы.
     """
-    return s.title()
+    return input_string.title()
 
 
